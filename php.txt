@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลนักเรียน</title>
+    <style>
+        body {
+            font-family: 'Angsana New', 'Cordia New', sans-serif;
+            font-size: 20px;
+            line-height: 1.8;
+            margin: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>แบบบันทึกข้อมูลนักเรียน</h2>
+
+    <?php
+        echo "ชื่อ-สกุล:นายศรัณยพงศ์ เอกอัครพรพล" . "<br>";
+        echo "เรียนอยู่ระดับชั้น 6 ห้องเรียน 8" . "<br>";
+        echo "เลขที่ 20" . "<br>";
+        echo "ที่อยู่83 ซ.สุขสวัสดิ์ 26 แยก 9 แขวงบางปะกอก เขตราษฎร์บูรณะ กรุงเทพมหานคร" . "<br>";
+        echo "ประวัติการศึกษา จบชั้นประถมศึกษาโรงเรียนสารสาสน์สุขสวัสดิ์" . "<br>";
+    ?>
+
+</body>
+</html>
