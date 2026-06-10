@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลนักเรียน</title>
+    <style>
+        body {
+            font-family: 'Angsana New', 'Cordia New', sans-serif;
+            font-size: 20px;
+            line-height: 1.8;
+            margin: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>แบบบันทึกข้อมูลนักเรียน</h2>
+
+    <?php
+        $name = "นายศรัณยพงศ์ เอกอัครพรพล";
+        $level = "6";
+        $room = "8";
+        $no = "20";
+        $address = "83 ซ.สุขสวัสดิ์ 26 แยก 9 แขวงบางปะกอก เขตราษฎร์บูรณะ กรุงเทพมหานคร";
+        $education = "จบชั้นประถมศึกษาโรงเรียนสารสาสน์สุขสวัสดิ์";
+
+        echo "ชื่อ-สกุล: " . $name . "<br>";
+        echo "เรียนอยู่ระดับชั้น: " . $level . " ห้องเรียน: " . $room . "<br>";
+        echo "เลขที่: " . $no . "<br>";
+        echo "ที่อยู่: " . $address . "<br>";
+        echo "ประวัติการศึกษา: " . $education . "<br>";
+    ?>
+
+</body>
+</html>
